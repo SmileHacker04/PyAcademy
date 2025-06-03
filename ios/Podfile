@@ -1,13 +1,9 @@
-# Поддерживаемая версия iOS
 platform :ios, '13.0'
-
-# Путь до Flutter SDK
-ENV['FLUTTER_ROOT'] ||= File.expand_path('~/flutter')
 
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  flutter_install_all_ios_pods(nil)
+  # Подключаем Flutter-плагины вручную (если знаешь, какие нужны),
+  # либо просто не вызывай flutter_install_all_ios_pods (но тогда плагины не подтянутся автоматически)
 end
-
