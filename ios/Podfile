@@ -1,9 +1,10 @@
-# Поддержка iOS-платформы
+# Поддерживаемая версия iOS
 platform :ios, '13.0'
 
-# Подключение Flutter SDK
-flutter_application_path = '../'
-load File.join(flutter_application_path, '.flutter-plugins-dependencies')
+# Путь до Flutter SDK
+ENV['FLUTTER_ROOT'] ||= File.expand_path('~/flutter')
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), __dir__)
 
 target 'Runner' do
   use_frameworks!
@@ -11,3 +12,4 @@ target 'Runner' do
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end
+
