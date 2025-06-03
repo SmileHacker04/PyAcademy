@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "719021845546",
+    "firebase_url": "https://dentcorp-f16df-default-rtdb.firebaseio.com",
+    "project_id": "dentcorp-f16df",
+    "storage_bucket": "dentcorp-f16df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719021845546:android:ff031cc9dc199ec82ae753",
+        "android_client_info": {
+          "package_name": "com.example.py_academy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719021845546-9r1jgv3t4o00h390gu688m2ojd3o56lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB93sNDtEMEQjmzGNcsxO0DytYxB0JaxM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719021845546-9r1jgv3t4o00h390gu688m2ojd3o56lk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "719021845546-5ld2reb5oouqpmdtaegauc4etjv486ut.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pyAcademy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
