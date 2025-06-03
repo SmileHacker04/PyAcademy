@@ -4,7 +4,7 @@ platform :ios, '13.0'
 # Путь до Flutter SDK
 ENV['FLUTTER_ROOT'] ||= File.expand_path('~/flutter')
 
-require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), __dir__)
+require_relative '../.flutter-plugins-dependencies'
 
 target 'Runner' do
   use_frameworks!
